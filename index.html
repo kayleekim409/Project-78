@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Family Book
+    </title>
+</head>
+
+<body>
+    <center>
+        <h1>
+            My Family Book
+        </h1>
+        <img id="images" src="https://www.pngitem.com/pimgs/m/57-573353_transparent-family-vector-png-cartoon-family-png-transparent.png" style="width: 30%;">
+        <h2 id="names">Kaylee Kim</h2>
+        <hr>
+        <script src="main.js">
+            var images = ["https://www.freepngimg.com/thumb/artwork/81416-emotion-headgear-father-cartoon-mother-free-download-image.png",
+                "https://clipartart.com/images/clipart-mama-2.jpg",
+                "https://studio.code.org/v3/assets/s645DUtZhgiwO4WxLS7Blq5Javgk4CRczqs679om-ac/Girl.png",
+                "https://s.clipartkey.com/mpngs/s/143-1432485_basketball-stock-photography-illustration-girl-playing-basketball.png"
+            ]
+            var names = ["Kyu Kim", "Karen Kim", "Renha Kim", "Kaylee Kim"];
+            console.log(names);
+            document.getElementById("name").innerHTML = names;
+        </script>
+        <button type="button" style="width: 8%; height: 15%; font-size: 15px;" onclick="update();">Next</button>
+    </center>
+</body>
+
+</html>
